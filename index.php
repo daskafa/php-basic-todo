@@ -44,7 +44,7 @@
     <div class="p-2">
         <div class="flex justify-center">
             <form action="/index.php" method="post">
-                <input class="border-2 rounded-md py-2 px-2 focus:outline-none" type="text" name="mytodo" autocomplete="off"/>
+                <input class="border-2 rounded-md py-2 px-2 focus:outline-none text-gray-500" type="text" placeholder="Bir Yapılacak Giriniz" name="mytodo" autocomplete="off"/>
                 <input class="px-4 py-1 ml-2 box-shadow bg-gray-700 text-white rounded focus:outline-none cursor-pointer hover:bg-green-600 hover:text-white transitions duration-300" type="submit" value="EKLE">
             </form>
         </div>

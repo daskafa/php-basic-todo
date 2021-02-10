@@ -26,7 +26,7 @@
     <div class="p-2">
         <div class="flex justify-center">
             <form action="/index.php?id=<?php echo $_GET['id'] ?>" method="post">
-                <input class="border-2 rounded-md py-2 px-2 focus:outline-none" type="text" name="update" autocomplete="off"/>
+                <input class="border-2 rounded-md py-2 px-2 focus:outline-none" type="text" name="update" placeholder="Buraya Yazın.." autocomplete="off"/>
                 <button type="submit" class="px-4 py-1 ml-2 box-shadow bg-gray-500 text-white rounded focus:outline-none">Güncelle</button>
             </form>
         </div>
